@@ -1,13 +1,32 @@
 # Project Setup
 
+## Add connection to MongoDB
+
+- navigate to server directory
+- create file: config.env
+- Add connection string & port number to config.env:
+
+```
+ATLAS_URI=mongodb+srv://<username>:<password>@3800demo.h7efb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+PORT=5000
+```
+
+## Setup Project Dependencies
+
 - navigate to server directory
 - npm install
-- npm start
 - navigate to client directory
 - npm install
 - npm start (Need 2 terminals open to start both)
 
-## Available Scripts
+## Run Application
+
+- navigate to server directory
+- npm start
+- navigate to client directory
+- npm start (Need 2 terminals open to start both)
+
+## Available Scripts (Added From: npm create-react-app)
 
 In the project directory, you can run:
 
