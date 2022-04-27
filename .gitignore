@@ -2,3 +2,4 @@
 ._idea
 .vscode/
 node_modules/
+config.env
