@@ -58,7 +58,6 @@ export default function Edit() {
      body: JSON.stringify(editedPerson),
      headers: {
        'Content-Type': 'application/json',
-       'Accept': 'application/json'
      },
    });
  
