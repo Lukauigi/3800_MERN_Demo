@@ -1,5 +1,10 @@
 # Project Setup
 
+## Prerequisites
+
+- installed Node.js ver.14.15.4
+- installed npm
+
 ## Add connection to MongoDB
 
 - navigate to server directory
